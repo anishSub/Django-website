@@ -47,7 +47,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'website.urls'
 
-TEMPLATES = [git status
+TEMPLATES = [
              
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
