@@ -29,10 +29,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website.category',    # Fixed path
-    'website.accounts',    # Fixed path
-    'website.store',       # Fixed path
-    'website.carts', 
+    'category',
+    'accounts',
+    'store',
+    'carts',
 ]
 
 MIDDLEWARE = [
@@ -47,7 +47,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'website.urls'
 
-TEMPLATES = [
+TEMPLATES = [git status
+             
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': ['templates'],
