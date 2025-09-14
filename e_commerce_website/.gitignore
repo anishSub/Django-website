@@ -3,4 +3,3 @@ venv/
 *.pyc
 __pycache__/
 .env
-db.sqlite3  # Optional: exclude if you’ll run migrations on Render
